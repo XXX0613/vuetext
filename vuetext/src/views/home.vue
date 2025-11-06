@@ -9,8 +9,14 @@
         <Keyguanlizhuangtai></Keyguanlizhuangtai>
         <Shijianchuli></Shijianchuli>
         <Shijianchuancan></Shijianchuancan>
-        <Shuzubianhuazhence></Shuzubianhuazhence>
         <Shijianxiushifu></Shijianxiushifu>
+        <Shuzubianhuazhence></Shuzubianhuazhence>
+        <Jisuanshuxing></Jisuanshuxing>
+        <Classbangding></Classbangding>
+        <Biaodanshujubangding></Biaodanshujubangding>
+        <Watchzhengting></Watchzhengting>
+        <Stylebangding></Stylebangding>
+        <Zujianqiantao></Zujianqiantao>
     </div>
 </template>
 
@@ -25,7 +31,12 @@ import Shijianchuli from '../components/shijianchuli.vue';
 import Shijianchuancan from '../components/shijianchuancan.vue';
 import Shijianxiushifu from '../components/shijianxiushifu.vue';
 import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue';
-
+import Jisuanshuxing from '../components/jisuanshuxing.vue';
+import Classbangding from '../components/classbangding.vue';
+import Biaodanshujubangding from '../components/biaodanshujubangding.vue';
+import Watchzhengting from '../components/watchzhengting.vue';
+import Stylebangding from '../components/stylebangding.vue';
+import Zujianqiantao from '../components/zujianqiantao.vue';
 
 
 export default {
@@ -39,7 +50,23 @@ export default {
         Shijianchuli,
         Shijianchuancan,
         Shijianxiushifu,
-        Shuzubianhuazhence
+        Shuzubianhuazhence,
+        Jisuanshuxing,
+        Classbangding,
+        Biaodanshujubangding,
+        Watchzhengting,
+        Stylebangding,
+        Zujianqiantao,
+    },
+    data() {
+        return {
+            msg: 'Welcome to Your Vue.js App'
+        }
+    },
+    methods: {
+        click() {
+            console.log('click')
+        }
     },
 }
 </script>
