@@ -16,7 +16,15 @@
         <Biaodanshujubangding></Biaodanshujubangding>
         <Watchzhengting></Watchzhengting>
         <Stylebangding></Stylebangding>
+        <Zujianzucheng></Zujianzucheng>
         <Zujianqiantao></Zujianqiantao>
+        <Zujianchuanzhiprops></Zujianchuanzhiprops>
+        <PropsjiaoyanA></PropsjiaoyanA>
+        <Zujianshijian></Zujianshijian>
+        <ZujianshijianVmodel></ZujianshijianVmodel>
+        <Chacaoslots></Chacaoslots>
+        <Shengmingzhouqi></Shengmingzhouqi>
+        <Shengmingzhouqiyingyong></Shengmingzhouqiyingyong>
     </div>
 </template>
 
@@ -36,8 +44,15 @@ import Classbangding from '../components/classbangding.vue';
 import Biaodanshujubangding from '../components/biaodanshujubangding.vue';
 import Watchzhengting from '../components/watchzhengting.vue';
 import Stylebangding from '../components/stylebangding.vue';
+import Zujianzucheng from '../components/zujianzucheng.vue';
 import Zujianqiantao from '../components/zujianqiantao.vue';
-
+import Zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import PropsjiaoyanA from '../components/propsjiaoyanA.vue';
+import Zujianshijian from '../components/zujianshijian.vue';
+import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue';
+import Chacaoslots from '../components/chacaoslots.vue';
+import Shengmingzhouqi from '../components/shengmingzhouqi.vue';
+import Shengmingzhouqiyingyong from '../components/shengmingzhouqiyingyong.vue';
 
 export default {
     name: 'home',
@@ -56,7 +71,16 @@ export default {
         Biaodanshujubangding,
         Watchzhengting,
         Stylebangding,
+        Zujianzucheng,
         Zujianqiantao,
+        Zujianchuanzhiprops,
+        PropsjiaoyanA,
+        Zujianshijian,
+        ZujianshijianVmodel,
+        Chacaoslots,
+        Shengmingzhouqi,
+        Shengmingzhouqiyingyong,
+
     },
     data() {
         return {
